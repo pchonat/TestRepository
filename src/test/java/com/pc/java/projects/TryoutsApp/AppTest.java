@@ -37,6 +37,7 @@ public class AppTest {
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
+		System.out.println("AfterClass invocation");
 	}
 
 	@Before
